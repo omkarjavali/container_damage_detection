@@ -1,5 +1,5 @@
 # YOLOv8 model file
-best.pt
+best_yolov8l_72persent.pt
 
 # Output directory for annotated videos and frames
 outputs/
