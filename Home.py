@@ -18,7 +18,7 @@ if "frame_files" not in st.session_state:
     st.session_state.frame_files = []
 
 # Load the YOLOv8 model
-model = YOLO("best_yolov8l_72percent.pt")  # Replace with path to your best.pt file or URL
+model = YOLO("https://drive.google.com/file/d/1z3RBJOsuCOu-E62An-veX0jXtYijwzeH/view?usp=drive_link")  # Replace with path to your best.pt file or URL
 
 # Create output directory
 output_dir = "outputs"
