@@ -1,0 +1,33 @@
+# YOLOv8 model file
+best.pt
+
+# Output directory for annotated videos and frames
+outputs/
+
+# Python virtual environment
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Streamlit temporary files
+.streamlit/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.zip
