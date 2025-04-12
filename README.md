@@ -72,6 +72,3 @@ your-repo-name/
 ## Acknowledgments
 - Built with Streamlit and Ultralytics YOLOv8.
 - Thanks to the open-source community for robust tools!
-
-```
-
