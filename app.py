@@ -115,7 +115,6 @@ elif upload_type == "Video":
             cap = cv2.VideoCapture(temp_video_path)
             if not cap.isOpened():
                 st.error("Error opening video file.")
-                return
             
             # Get video properties
             width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
