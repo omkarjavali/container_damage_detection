@@ -46,8 +46,8 @@ if uploaded_file is not None:
             table_data.append({
                 "Detection #": i + 1,
                 "Damage Type": class_name,
-                #"Confidence": f"{confidence:.2f}",
-                #"Bounding Box": f"[{int(xyxy[0])}, {int(xyxy[1])}, {int(xyxy[2])}, {int(xyxy[3])}]"
+                "Confidence": f"{confidence:.2f}",
+                "Bounding Box": f"[{int(xyxy[0])}, {int(xyxy[1])}, {int(xyxy[2])}, {int(xyxy[3])}]"
             })
         
         # Display as a table
